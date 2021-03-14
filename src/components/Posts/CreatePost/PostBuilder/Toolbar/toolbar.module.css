@@ -1,0 +1,15 @@
+.toolBar {
+    padding: 16px;
+}
+
+.toolBar button {
+    height: 50px;
+    border-radius: 15px;
+    background: none;
+    margin: 0 10px;
+
+}
+
+.toolBar button:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,28 @@
+.container {
+    text-align: center;
+    width: 80%;
+    margin: 5em auto
+}
+
+.tiles {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.tile {
+    width: 100%;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 0.01em auto;
+}
+
+@media(min-width:600px) {
+    .tile {
+        width: calc(50% - 3em);
+
+        margin: 1em auto;
+    }
+}

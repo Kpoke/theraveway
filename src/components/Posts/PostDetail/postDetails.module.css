@@ -1,0 +1,67 @@
+.image {
+    width: 80%;
+    height: 250px
+}
+
+.textImage {
+    width: 60%;
+    margin: 20px auto;
+}
+
+.meta {
+    width: 80%;
+    margin: auto;
+    text-align: left;
+}
+
+.title {
+    font-size: large;
+    text-transform: uppercase;
+    color: #520404;
+}
+
+.container {
+    margin: auto;
+    text-align: center;
+}
+
+.text {
+    width: 300px;
+    text-align: left;
+    margin: 10px 40px;
+}
+
+.comment {
+    width: 80%;
+    margin: 10px auto
+}
+
+.icons {
+    display: flex;
+    width: 80%;
+    text-align: left;
+    margin: auto;
+}
+
+
+
+.icon {
+    margin: 10px 5px;
+}
+
+@media(min-width: 600px) {
+    .image {
+        width: 80%;
+        height: 600px
+    }
+
+    .title {
+        font-size: 50px;
+    }
+
+    .text {
+        width: 80%;
+        margin: 0 auto;
+        font-size: 25px;
+    }
+}

@@ -1,0 +1,37 @@
+.body {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.text {
+    text-transform: capitalize;
+    font-size: large;
+    text-align: left;
+    font-weight: 700;
+    margin: 0 15px;
+    color: #520404;
+}
+
+.image {
+    width: 90%;
+    height: 90%;
+    max-height: 169.58px;
+    margin-bottom: 10px;
+}
+
+@media(min-width: 600px) {
+    .text {
+        margin-left: 23px;
+        font-size: x-large;
+    }
+
+    .image {
+        max-height: 160px;
+    }
+
+    .body {
+        max-height: 279.58px;
+    }
+
+}

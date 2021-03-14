@@ -1,0 +1,9 @@
+.error {
+    text-align: center;
+    font-size: 20px;
+    margin: 50px auto;
+    border: 2px solid #05051848;
+    box-shadow: inset #05051848;
+    height: 3rem;
+    width: 200px;
+}

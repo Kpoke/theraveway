@@ -1,0 +1,21 @@
+.tiles {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.tile {
+    margin: 0 auto;
+}
+
+.title {
+    text-transform: uppercase;
+    font-size: large;
+}
+
+@media(min-width: 600px) {
+    .title {
+        text-transform: uppercase;
+        font-size: larger;
+        margin-left: 30%;
+    }
+}

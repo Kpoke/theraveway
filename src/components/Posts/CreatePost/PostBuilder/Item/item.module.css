@@ -1,0 +1,13 @@
+.textBox {
+    width: 100%;
+}
+
+.tile {
+    width: 80%;
+    margin: 10px auto;
+    display: flex;
+}
+
+.Button:hover {
+    cursor: pointer;
+}
